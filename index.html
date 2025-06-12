@@ -4,16 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>WikiWorld</title>
+    <link rel="shortcut icon" href="./src/assets/favicon/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/style.css">
 </head>
 <body>
 
-    <div>   
-        <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
+    <header>
+        <div class="header-main">
+            <button type="button" id="menu-toggle">
+                <img src="./src/assets/icons/ico-menu.svg" alt="ico menu">
+                <img src="./src/assets/icons/ico-close.svg" alt="ico close menu">
+            </button>
+
+            <a href="/" class="logo"> <img src="./src/assets/images/logo.svg" width="50" alt="Logo WikiWorld"/>
+            <h1>W<p>iki</p>W<p>orld</p></h1>
+        </a>
         </div>
-    </div>
+
+       <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Pesquisar no WikiWorld">
+            <label for="search-input" class="sr-only">Pesquisar</label>
+            <button type="submit" aria-label="Pesquisar">
+                <img src="./src/assets/icons/search.svg" alt="Ícone de busca">
+            </button>
+        </div>
+
+        <nav id="main-navigation">
+            <ul>
+                <li><a href="#">Donativos</a></li>
+                <li><a href="#">Criar uma conta</a></li>
+                <li><a href="#">Entrar</a></li>
+                <li>
+                    <button type="button" aria-label="Ver mais opções">
+                        <img src="./src/assets/icons/more_horiz.svg" alt="Ícone de mais opções">
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- <div>   
+        <div class="logo">
+            <img src="./src/assets/images/logo.svg" width="50" alt="logo similar ao Wikipedia"/>
+        </div>
+    </div> -->
 
     <div class="bar"></div>
 
