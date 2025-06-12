@@ -11,37 +11,40 @@
 <body>
 
     <header>
-        <div class="header-main">
-            <button type="button" id="menu-toggle">
-                <img src="./src/assets/icons/ico-menu.svg" alt="ico menu">
-                <img src="./src/assets/icons/ico-close.svg" alt="ico close menu">
-            </button>
+        <div class="header">
+            <div class="header-main">
+                <button type="button" id="menu-toggle">
+                    <img src="./src/assets/icons/ico-menu.svg" alt="ico menu">
+                    <img src="./src/assets/icons/ico-close.svg" alt="ico close menu">
+                </button>
+                <a href="/" class="logo">
+                    <img src="./src/assets/images/logo.svg" alt="Logo WikiWorld"/>
+                    <h1>W<p>iki</p>W<p>orld</p></h1>
+                    <p>O Mundo com conhecimento</p>
+                </a>
+            </div>
 
-            <a href="/" class="logo"> <img src="./src/assets/images/logo.svg" width="50" alt="Logo WikiWorld"/>
-            <h1>W<p>iki</p>W<p>orld</p></h1>
-        </a>
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Pesquisar no WikiWorld">
+                <label for="search-input" class="sr-only">Pesquisar</label>
+                <button type="submit" aria-label="Pesquisar">
+                    <img src="./src/assets/icons/search.svg" alt="Ícone de busca">
+                </button>
+            </div>
+
+            <nav id="main-navigation">
+                <ul>
+                    <li><a href="#">Donativos</a></li>
+                    <li><a href="#">Criar uma conta</a></li>
+                    <li><a href="#">Entrar</a></li>
+                    <li>
+                        <button type="button" aria-label="Ver mais opções">
+                            <img src="./src/assets/icons/more_horiz.svg" alt="Ícone de mais opções">
+                        </button>
+                    </li>
+                </ul>
+            </nav>
         </div>
-
-       <div class="search-bar">
-            <input type="text" id="search-input" placeholder="Pesquisar no WikiWorld">
-            <label for="search-input" class="sr-only">Pesquisar</label>
-            <button type="submit" aria-label="Pesquisar">
-                <img src="./src/assets/icons/search.svg" alt="Ícone de busca">
-            </button>
-        </div>
-
-        <nav id="main-navigation">
-            <ul>
-                <li><a href="#">Donativos</a></li>
-                <li><a href="#">Criar uma conta</a></li>
-                <li><a href="#">Entrar</a></li>
-                <li>
-                    <button type="button" aria-label="Ver mais opções">
-                        <img src="./src/assets/icons/more_horiz.svg" alt="Ícone de mais opções">
-                    </button>
-                </li>
-            </ul>
-        </nav>
     </header>
 
     <!-- <div>   
@@ -50,7 +53,7 @@
         </div>
     </div> -->
 
-    <div class="bar"></div>
+    <!-- <div class="bar"></div>
 
     <div class="content">
         <div class="sidebar">
@@ -74,6 +77,6 @@
 
     <div class="footer">
 
-    </div>
+    </div> -->
 </body>
 </html>
