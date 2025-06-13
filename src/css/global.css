@@ -26,6 +26,7 @@
 
     --color-border: #a2a9b1;
     --color-white: #fff;
+    --color-black: #000;
     --color-base: #202122;
     --color-base-fixed: #202122;
     --color-base--hover: #404244;
@@ -34,7 +35,8 @@
     --color-placeholder: #72777d;
     --color-progressive: #3366cc;
     --color-orange: #ff5d01;
-
+    --background: #eaecf0;
+    --color-red: #EB0000;
     
 
 }
@@ -43,14 +45,14 @@
 @media screen and (min-width: 73.75rem) {
 
     body > main {
-        width: 100%;
+        max-width: 73.75rem;
+        margin: auto;
         display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-columns: 1fr 3fr 1fr;
 
     }
 
 }
-
 
 
 h1 {
