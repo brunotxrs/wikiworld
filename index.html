@@ -50,23 +50,27 @@
     <main>
 
         <section class="content">
-            <div>
-                <h3>Conteúdo</h3>
-                <span>ocultar</span>
-            </div>
-            <hr>
+            
+            <div class="box-cont">
+                <div>
+                    <h3>Conteúdo</h3>
+                    <button>ocultar</button>
+                </div>
+                <hr>
 
-            <ul>
-                <li>Inicio</li>
-                <li>Introdução</li>
-                <li>Front-End</li>
-                <li>Back-End</li>
-                <li>Referências</li>
-            </ul>
+                <ul>
+                    <li><a href="/">Início</a></li>
+                    <li><a href="/">Introdução</a></li>
+                    <li><a href="#front-end">Front-End</a></li>
+                    <li><a href="#back-end">Back-End</a></li>
+                    <li><a href="#ref">Referências</a></li>
+                </ul>
+            </div>
 
         </section>
 
         <section class="introduction" id="full-stack">
+
             <div class="box-intro">
                 <h2>Desenvolvedor Full Stack</h2>
                 <hr>
@@ -80,16 +84,49 @@
                         <a href="#"><img src="./src/assets/icons/pen.svg" alt="ico pen"></a>
                     </div>
                 </div>
+
+                <div class="box-selec">
+
+                    <div>
+                        <span class="underline" id="box-selection-1">
+                            <span>Artigo</span>
+                        </span>
+                        
+                        <span id="box-selection-2">
+                            <span>Discussão</span>
+                        </span>
+                    </div>
+
+
+                    <div>
+                        <span id="box-selected-1" class="underline">
+                            <a href="#">Ler</a>
+                        </span>
+                        <span>
+                            <a href="#">Editar</a>
+                        </span>
+                        <span>
+                            <a href="#">Ver histórico</a>
+                        </span>
+
+                    </div>
+                
+
+                </div>
+
+                <hr>
+
             </div>
 
             <div class="box-text">
                 <div>
-                    <span>
+                    <span class="imgs">
                         <img src="./src/assets/icons/swap_horiz.svg" alt="">
+                        <img src="./src/assets/images/Question_book-new.svg.webp" alt="">
                     </span>
                     
                     <span>
-                        Esta página cita fontes, mas que não cobrem todo o conteúdo.<span>Ajude a inserir referências</span>
+                        Esta página <a href="#">cita fontes</a>, mas que não cobrem todo o conteúdo.<span> Ajude a <a href="#">inserir referências</a>(Encontre fontes: <a href="https://www.bing.com/search?q=fullstack&cvid=be185ed79b3744cf83833993ee34afca&gs_lcrp=EgRlZGdlKgkIABBFGDsY-QcyCQgAEEUYOxj5BzIGCAEQRRg5MgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEEUYPDIGCAcQRRg9MgYICBBFGD3SAQg2NDYxajBqNKgCCLACAQ&FORM=ANAB01&PC=U531">Google</a> (<a href="https://www.google.com/search?q=full+stack&sca_esv=4d0ee1113763e3b2&hl=pt&tbm=nws&sxsrf=AE3TifO-umF3EtUiKjBCKJPBdXf289PoxQ%3A1749814163073&ei=kwtMaOCmBPjK1sQPvLil-A8&oq=ful&gs_lp=Egxnd3Mtd2l6LW5ld3MiA2Z1bCoCCAgyCBAAGIAEGLEDMggQABiABBixAzIIEAAYgAQYsQMyCxAAGIAEGLEDGIMBMggQABiABBixAzIIEAAYgAQYsQMyCBAAGIAEGLEDMggQABiABBixAzINEAAYgAQYsQMYQxiKBTIIEAAYgAQYsQNItyJQAFj4AXAAeACQAQCYAaMBoAHKA6oBAzAuM7gBA8gBAPgBAZgCA6AC7gPCAg4QABiABBixAxiDARiKBZgDAJIHAzAuM6AH-A-yBwMwLjO4B-4DwgcFMi0xLjLIBxw&sclient=gws-wiz-news">N</a> • <a href="https://www.google.com/search?q=full+stack&sca_esv=4d0ee1113763e3b2&hl=pt-BR&udm=36&sxsrf=AE3TifNV83eJRCvnAgr5YfNOTx7b1iMhag%3A1749814216379&ei=yAtMaKv5Fpnd1sQPo-jw0Qw&oq=full+s&gs_lp=Eg1nd3Mtd2l6LWJvb2tzIgZmdWxsIHMqAggFMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTMgcQABiABBgTSKI7UPAFWIolcAN4AJABAJgBrAGgAb8JqgEDMC44uAEDyAEA-AEBmAIIoAL0CKgCAMICBRAAGIAEmAMCiAYBkgcDMS43oAeZHLIHAzAuN7gH7wjCBwcwLjEuNC4zyAc5&sclient=gws-wiz-books">L</a> • <a href="https://scholar.google.com/scholar?hl=pt-BR&as_sdt=0%2C5&q=full+stack&btnG=&oq=Full+sta">A</a> • <a href="https://cse.google.com/cse?hl=en&cx=007734830908295939403:galkqgoksq0&cof=FORID:13%3BAH:left%3BCX:Wikipedia%2520Reference%2520Search&q=%22Front-end+e+back-end%22#gsc.tab=0&gsc.q=Full%20stack">WP refs</a>)). (Junho de 2025)</span>
                     </span>
 
                     <span>Saiba mais</span>
@@ -97,30 +134,47 @@
             </div>
 
             <aside>
-                <p>O universo do desenvolvimento de software é vasto, com inúmeras especializações e caminhos de carreira. Entre as mais dinâmicas e completas, destaca-se a figura do <strong><a href="#full-stack">Desenvolvedor Full Stack</a></strong>. Mas o que realmente significa ser "Full Stack"?</p>
+                <p>O universo do desenvolvimento de software é vasto, com inúmeras especializações e caminhos de carreira. Entre as mais dinâmicas e completas, destaca-se a figura do <strong><a href="/">Desenvolvedor Full Stack</a></strong>. Mas o que realmente significa ser "Full Stack"?</p>
 
-                <p>Em essência, um Desenvolvedor Full Stack é o profissional que possui a capacidade de trabalhar em <strong>todas as camadas de uma aplicação web</strong>, do início ao fim. Isso inclui tanto o <strong><a href="front-end">front-end</a></strong>, que é tudo o que o usuário vê e interage (a interface visual), quanto o <strong><a href="back-end">back-end</a></strong>, que lida com a lógica de negócios, banco de dados e servidores (tudo o que acontece por trás das cenas).</p>
+                <p>Em essência, um Desenvolvedor Full Stack é o profissional que possui a capacidade de trabalhar em <strong>todas as camadas de uma aplicação web</strong>, do início ao fim. Isso inclui tanto o <strong><a href="#front-end">front-end</a></strong>, que é tudo o que o usuário vê e interage (a interface visual), quanto o <strong><a href="#back-end">back-end</a></strong>, que lida com a lógica de negócios, banco de dados e servidores (tudo o que acontece por trás das cenas).</p>
 
                 <p>Essa abrangência de conhecimento permite que o Desenvolvedor Full Stack tenha uma visão holística do projeto, compreendendo como cada parte se conecta e impacta o todo. Ele pode transitar entre diferentes tecnologias e linguagens, contribuindo desde a criação da interface do usuário até a implementação da infraestrutura do servidor e a gestão do banco de dados.</p>
 
                 <p>Ser Full Stack não significa ser um especialista em absolutamente tudo, mas sim ter um conhecimento sólido e funcional em diversas áreas, permitindo prototipar, construir e manter aplicações complexas de forma independente ou em equipes multifuncionais. É uma das carreiras mais desafiadoras e recompensadoras na tecnologia, exigindo constante aprendizado e adaptabilidade.</p>
             </aside>
 
+            
+
         </section>
 
         <section class="tools">
-            <div>
-                <h3>Ferramentas</h3> 
-                <span>ocultar</span>
+            <div class="box-tools">
+                
+                <div>
+                    <h3>Ferramentas</h3>
+                    <button>ocultar</button>
+                </div>
+                <hr>
+                
+                <ul>
+                    <li>
+                        <a href="#">Geral</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="#">Páginas afluentes</a>
+                    </li>
+                    <li>
+                        <a href="#">Alterações relacionadas</a>
+                    </li>
+                    <li>
+                        <a href="#">Carregar ficheiro</a>
+                    </li>
+                    <li>
+                        <a href="#">Hiperligação permanente</a>
+                    </li>
+                </ul>
             </div>
-            <hr>
-
-            <ul>
-                <li>item1</li>
-                <li>item2</li>
-                <li>item3</li>
-                <li>item4</li>
-            </ul>
         </section>
     </main>
 
