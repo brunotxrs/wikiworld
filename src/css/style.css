@@ -1,5 +1,6 @@
 @import url(global.css);
 @import url(header.css);
+@import url(main.css);
 
 .bar {
     background-color: #f9f9fb;
