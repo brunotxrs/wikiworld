@@ -28,13 +28,13 @@ Embora o repositório inicial viesse com uma estrutura básica e CSS aplicado, e
 
 ## Como Visualizar o Projeto
 
-Você pode conferir o projeto diretamente clicando [AQUI]().
+Você pode conferir o projeto diretamente clicando [AQUI](https://brunotxrs.github.io/wikiworld/).
 
 
 Para visualizar o projeto localmente:
 
 1.  Clone este repositório para sua máquina:
-    `git clone [https://github.com/brunotxrs/trilha-html-modulo-3]`
+    `git clone [https://github.com/brunotxrs/wikiworld]`
 2.  Navegue até a pasta do projeto.
 3.  Abra o arquivo `index.html` (ou o nome do seu arquivo principal) no seu navegador preferido.
 ---
