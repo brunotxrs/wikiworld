@@ -1,0 +1,274 @@
+.referencia {
+    width: 100%;
+    margin: 0 0 12px;
+    padding: 12px 0;
+
+    div:nth-child(1){
+        height: 57px;
+        max-width: 23.75rem;
+        margin: 0 1rem 0 1rem;
+
+        
+
+        div:nth-child(1){
+            width: 100%;
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: left;
+            gap: 10px;
+            
+
+            button {
+                border: none;
+                background-color: transparent;
+
+                #btn-6 {
+                    display: none;
+                }
+            }
+
+            h2 {
+                font-size: 24px;
+                white-space: nowrap;
+                overflow: hidden;  
+                text-overflow: ellipsis;
+                font-family: var(--font-subtitles);
+                font-weight: 100;
+                padding:  0.5em 0;
+                
+                
+            }
+
+
+            span {
+                display: none;
+                
+            }
+        }
+
+    }
+
+    aside {
+        display: none;
+        flex-direction: column;
+        max-width: 23.75rem;
+        font-family: var(--font-paragraph);
+        margin: 0 1rem 0 1rem;
+        line-height: 150%;
+        
+        p:nth-child(1){
+            margin: 16px 0 0 0;
+            padding: 0 0 8px;
+        }
+
+        h3 {
+            font-family: var(--font-paragraph);
+            margin: 5px 0;
+        }
+
+        ul {
+            margin: 5px  0;
+
+            li {
+                margin: 5px 0;
+
+                ul {
+                    margin: 5px 0;
+
+                    li {
+                        margin: 5px 0;
+                        padding: 0 0 0 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 48rem) and (max-width: 73.75rem){
+
+    .referencia {
+        max-width: 56.75rem;
+        margin: auto;
+
+        div:nth-child(1){
+            height: 57px;
+            max-width: 100%;
+            margin: 0 1rem 0 1rem;
+
+            
+
+            div:nth-child(1){
+                width: 100%;
+                margin: auto;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: left;
+                gap: 10px;
+                
+
+                button {
+                    border: none;
+                    background-color: transparent;
+
+                    #btn-6 {
+                        display: none;
+                    }
+                }
+
+                h2 {
+                    font-size: 24px;
+                    white-space: nowrap;
+                    overflow: hidden;  
+                    text-overflow: ellipsis;
+                    font-family: var(--font-subtitles);
+                    font-weight: 100;
+                    padding:  0.5em 0;
+                    
+                    
+                }
+
+
+                span {
+                    display: none;
+                    
+                }
+            }
+
+        }
+
+        aside {
+            display: none;
+            flex-direction: column;
+            max-width: 100%;
+            font-family: var(--font-paragraph);
+            margin: 0 1rem 0 1rem;
+            line-height: 150%;
+            
+            p:nth-child(1){
+                margin: 16px 0 0 0;
+                padding: 0 0 8px;
+            }
+
+            h3 {
+                font-family: var(--font-paragraph);
+                margin: 5px 0;
+            }
+
+            ul {
+                margin: 5px  0;
+
+                li {
+                    margin: 5px 0;
+
+                    ul {
+                        margin: 5px 0;
+
+                        li {
+                            margin: 5px 0;
+                            padding: 0 0 0 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+
+}
+
+@media screen and (min-width: 73.75rem){
+
+    .referencia {
+        max-width: 56.75rem;
+        margin: auto;
+
+        div:nth-child(1){
+            height: 57px;
+            max-width: 100%;
+            margin: 0 1rem 0 1rem;
+
+            
+
+            div:nth-child(1){
+                width: 100%;
+                margin: auto;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: left;
+                gap: 10px;
+                
+
+                button {
+                    border: none;
+                    background-color: transparent;
+
+                    #btn-5, #btn-6 {
+                        display: none;
+                    }
+                }
+
+                h2 {
+                    font-size: 24px;
+                    white-space: nowrap;
+                    overflow: hidden;  
+                    text-overflow: ellipsis;
+                    font-family: var(--font-subtitles);
+                    font-weight: 100;
+                    padding:  0.5em 0;
+                    
+                    
+                }
+
+
+                span {
+                    display: none;
+                    
+                }
+            }
+
+        }
+
+        aside {
+            display: flex;
+            flex-direction: column;
+            max-width: 100%;
+            font-family: var(--font-paragraph);
+            margin: 0 1rem 0 1rem;
+            line-height: 150%;
+            
+            p:nth-child(1){
+                margin: 16px 0 0 0;
+                padding: 0 0 8px;
+            }
+
+            h3 {
+                font-family: var(--font-paragraph);
+                margin: 5px 0;
+            }
+
+            ul {
+                margin: 5px  0;
+
+                li {
+                    margin: 5px 0;
+
+                    ul {
+                        margin: 5px 0;
+
+                        li {
+                            margin: 5px 0;
+                            padding: 0 0 0 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+
+}

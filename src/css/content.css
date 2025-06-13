@@ -23,7 +23,7 @@ main > .content {
             position: fixed;
             max-width: 11.25rem;
             height: 100vh;
-            margin-left: -6.25rem;
+            margin-left: 0rem;
          
             div {
 
