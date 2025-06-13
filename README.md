@@ -1,4 +1,4 @@
-# Recriando Wikipedia: Um Layout Melhor :)
+# Recriando Wikipedia: WikiWorld
 
 Este projeto é o resultado de um **desafio proposto durante o Curso Santander 2025 - Front-End**, parte do Santander Bootcamp 2025 na **DIO Digital Innovation One**. O objetivo principal foi aprofundar os conhecimentos em **estrutura de sites, semântica e acessibilidade** utilizando HTML.
 
@@ -6,13 +6,13 @@ Este projeto é o resultado de um **desafio proposto durante o Curso Santander 2
 
 ## Sobre o Projeto
 
-Este desafio, parte do **Módulo 3 - Trilha HTML**, foca em recriar a estrutura de um site similar à Wikipedia, mas com um **layout aprimorado**. O projeto visa treinar a aplicação prática de:
+Este desafio, foca em recriar a estrutura de um site similar à Wikipedia, mas com um **layout aprimorado**. O projeto visa treinar a aplicação prática de:
 
 * **Estrutura de Site:** Organização lógica e funcional do conteúdo.
 * **HTML Semântico:** Utilização de tags HTML com significado, como `<header>`, `<nav>`, `<main>`, `<article>`, `<footer>`, etc., para melhorar a compreensão do conteúdo por navegadores e ferramentas de busca.
 * **Acessibilidade:** Implementação de práticas que tornam o site utilizável por pessoas com deficiências, como o uso adequado de atributos `alt` para imagens, `aria-labels` e uma boa estrutura de navegação.
 
-O repositório já vinha com uma estrutura básica e um CSS levemente aplicado para facilitar o início. A liberdade criativa para desenvolver o layout e o tema foi total, priorizando o aprendizado e a diversão durante o processo.
+Embora o repositório inicial viesse com uma estrutura básica e CSS aplicado, este projeto foi reconstruído do zero, priorizando a estilização mobile-first e adaptando o layout com Media Queries para telas de Tablet e Desktop. O resultado final busca se aproximar do design original da Wikipedia, mas com o foco principal na aplicação correta das tags semânticas e princípios de acessibilidade.
 
 ---
 
@@ -21,6 +21,8 @@ O repositório já vinha com uma estrutura básica e um CSS levemente aplicado p
 
 
 <div align="center"><p>Para a estilização visual e o design responsivo.</p><a href="https://www.w3schools.com/css/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="60" /></a></div> 
+
+<div align="center"><p>Para interação em mobile e tablet</p><a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" /></a></div>
 
 ---
 
@@ -46,7 +48,6 @@ Sinta-se à vontade para inspecionar o código, sugerir melhorias ou dar feedbac
 ## Licença
 
 Este projeto é desenvolvido para fins educacionais e faz parte do programa Santander Bootcamp 2025 da DIO.
-
 
 ---
 
